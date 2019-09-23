@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="true"
+            android:clipToPadding="true"
+            android:scrollbarSize="4dp"
+            app:columnCount="2">
+
+
+            <Button
+                android:id="@+id/mangalID"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="मंगलाचरन "
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="4" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="बालक्रीडा    "
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="5" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="कृष्णचरित्र "
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="6" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="विरहिणी"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="8" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="पंढरीमहात्म्य व पांडुरंगाचें वर्णन"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="12" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="लळित"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="11" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="खेळ"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="10" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="काला"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="9" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="देवाची स्तुति"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="15" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="करुणापर अभंग व देवापाशीं मागणें"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="16" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="आपल्या स्थितीसंबंधानें जनाशीं उद्गार"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="19" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="नामपर"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="21" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="कीर्तनपर"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="22" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="देवाशीं प्रेमाचें भांडण"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="23" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:text="हरी हा भक्तांच्या अंकित राहून त्यांचे कार्य किती प्रेमानें व दक्षतेनें करतो"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="26" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="ढोंगी संत"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="28" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="संतांपाशीं करुणा भाकणें"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="29" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="संतांपाशीं करुणा भाकणें"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="29" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="निळोबास्वामीकृत सद्गुरु तुकाराममहाराजांची स्तुति!"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="35" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="सद्गुरु तुकाराममहाराजांचें वर्णन!"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="34" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="आरत्या!"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="33" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="निळोबाकृत चांगदेव चरित्र!"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="32" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="ज्ञानपर"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="31" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="संतकृपेनें प्राप्त झालेल्या स्थिती-संबंधानें जनांपाशीं व संतांपाशीं उद्गार"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="30" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="संतांचें वर्णन"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="27" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="देवभक्त यांची एकरुपता"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="25" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="देवभक्तांचा संवाद"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="24" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="मनास व जनांस उपदेश"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="20" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="आपल्या स्थितीसंबंधानें देवाशीं उद्गार"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="18" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="हरीचे वर्णन"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="14" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="आळंदीची व पंढरीची तुलना"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="13" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="गौळणी"
+                android:textSize="20dp"
+                app:layout_column="0"
+                app:layout_row="7" />
+
+        </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+
+</RelativeLayout>
